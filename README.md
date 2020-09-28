@@ -3,8 +3,8 @@ Aplicatia administreaza mai multe conturi la diferite banci si propune modalitat
 facturilor din aceste conturi exportand fisiere .csv de plata care pot fi importate in aplicatiile 
 de banking ale fiecarei banci pentru a realiza tranzactiile.
 
-### Download
-You must have a SQL Server database created using the provided sql script!
+## Download & Deployment
+You must have a SQL Server database created using the provided sql script before starting the aplication!
 
 <a href="https://github.com/ciucacosmin109/Facturi/raw/master/Facturi/bin/Release/Facturi.exe">Facturi.exe</a> 
 
@@ -12,6 +12,11 @@ You must have a SQL Server database created using the provided sql script!
 
 <a href="https://github.com/ciucacosmin109/Facturi/raw/master/SqlQuery_1.sql">SqlQuery_1.sql</a> 
 
+### To run the sql script you have 2 options:
+1. Using SSMS: Open SQL Server Management Studio -> File -> Open -> File -> Choose the SqlQuery_1.sql file -> Press Open -> Press Execute
+2. Using the following command: `sqlcmd -S .\SQLExpress -i SqlQuery_1.sql`
+
+## Prezentare
 ### Meniul principal
 Meniul principal prezinta o lista de conturi disponibile, fiecare avand un sold disponibil 
 la o anumita data (ultima data la care s-a actualizat soldul unui anumit cont), o moneda si numele bancii la 
