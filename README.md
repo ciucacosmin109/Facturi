@@ -4,7 +4,7 @@ facturilor din aceste conturi exportand fisiere .csv de plata care pot fi import
 de banking ale fiecarei banci pentru a realiza tranzactiile.
 
 ### Download
-You should have a SQL Server database created using the provided sql script for this to work !
+You must have a SQL Server database created using the provided sql script!
 
 <a href="https://github.com/ciucacosmin109/Facturi/raw/master/Facturi/bin/Release/Facturi.exe">Facturi.exe</a> 
 
