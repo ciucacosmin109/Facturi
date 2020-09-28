@@ -2,7 +2,14 @@
 Aplicatia administreaza mai multe conturi la diferite banci si propune modalitati de plata a 
 facturilor din aceste conturi exportand fisiere .csv de plata care pot fi importate in aplicatiile 
 de banking ale fiecarei banci pentru a realiza tranzactiile.
- 
+
+### Download
+You should have a SQL Server database configured for this to work !
+
+<a href="https://github.com/ciucacosmin109/Facturi/raw/master/Facturi/bin/Release/Facturi.exe">Facturi.exe</a> 
+
+<a href="https://github.com/ciucacosmin109/Facturi/raw/master/Facturi/bin/Release/Facturi.exe.config">Facturi.exe.config</a> 
+
 ### Meniul principal
 Meniul principal prezinta o lista de conturi disponibile, fiecare avand un sold disponibil 
 la o anumita data (ultima data la care s-a actualizat soldul unui anumit cont), o moneda si numele bancii la 
